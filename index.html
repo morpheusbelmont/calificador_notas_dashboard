@@ -588,7 +588,60 @@ Especialista en Edumática
 <script src="js/app.js"></script>
 
 
+<script>
 
+/* =============================
+
+      ACTIVAR SERVICE WORKER
+
+============================= */
+
+
+if(
+
+"serviceWorker"
+
+in navigator
+
+){
+
+
+
+navigator.serviceWorker
+
+
+.register(
+
+
+"service-worker.js"
+
+
+)
+
+
+
+.then(
+
+()=>{
+
+
+console.log(
+
+"PWA instalada"
+
+);
+
+
+}
+
+
+);
+
+
+
+}
+
+</script>
 </body>
 
 </html>
