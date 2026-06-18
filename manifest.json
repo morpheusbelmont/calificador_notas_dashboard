@@ -1,0 +1,36 @@
+{
+    "name": "Calificador Académico Dashboard Pro",
+
+    "short_name": "Notas Pro",
+
+    "description": "Dashboard académico para calcular notas, porcentajes, parciales y rendimiento estudiantil.",
+
+    "start_url": "./index.html",
+
+    "scope": "./",
+
+    "display": "standalone",
+
+    "orientation": "portrait",
+
+    "background_color": "#111827",
+
+    "theme_color": "#38bdf8",
+
+    "icons": [
+
+        {
+            "src": "img/icono.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+
+
+        {
+            "src": "img/icono.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+
+    ]
+}
